@@ -24,9 +24,11 @@ for i=1:100
     cond = [cond, cond_num];
 end
 
-hold on
-plot(vec, cond)
-plot(vec, nA_vec)
-plot(vec, nAinv_vec)
-legend('Numero di condizionamento', 'Norma di A', 'Norma di A^-^1')
+%hold on
+%plot(vec, cond)
+%plot(vec, nA_vec)
+%plot(vec, nAinv_vec)
+%legend('Numero di condizionamento', 'Norma di A', 'Norma di A^-^1')
+
+
 
